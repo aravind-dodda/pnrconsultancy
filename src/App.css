@@ -1,0 +1,203 @@
+a:hover{
+  color: #6C63FE  !important;
+}
+.navanchors a{
+  color:black !important;
+  font-weight: 500;
+}
+.navanchors a:hover{
+  color:#6C63FE !important;
+}
+
+.herosearchsection input, .herosearchsection select{
+  border: 0;
+}
+
+.logocontainer{
+ width: 130px;
+   height: 130px 
+}
+
+#scroll-container {
+  /* border: 3px solid black;
+  border-radius: 5px; */
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  white-space: nowrap;
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-150%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-150%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-150%);
+    -webkit-transform: translateX(-150%);
+    transform: translateX(-150%);
+  }
+}
+
+/* .herosearchsection select{
+  border-left: 1px solid lightgray;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+} */
+
+.bgc-primary{
+background-color: rgb(242, 246, 255) !important;
+}
+.btn-primary{
+  background-color: #6C63FE !important;
+}
+
+.myhighlightcolor{
+color: #6C63FE;
+}
+
+.dimgrey{
+  color: dimgrey;
+}
+
+a{
+text-decoration: none !important;
+}
+
+.contacticon{
+  margin-right: 0.5rem;
+}
+.contactusleft img{
+  width: 100%;
+}
+.contactusleft p{
+  width: 200px;
+}
+.herosearchsection  {
+  width: 100% !important;
+  }
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /* font-size:30px; */
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index:100;
+  }
+  
+  .my-float{
+    margin-top:10px;
+  }
+@media (max-width: 767.98px) {
+
+
+    .overviewcardtext{
+      border-right: 0 !important;
+      border-bottom: 1px solid lightgrey;
+    }
+
+    #scroll-text {
+      /* animation properties */
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      white-space: nowrap;
+      
+      -moz-animation: my-animation 25s linear infinite;
+      -webkit-animation: my-animation 25s linear infinite;
+      animation: my-animation 25s linear infinite;
+    }
+
+    /* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-950%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-950%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-950%);
+    -webkit-transform: translateX(-950%);
+    transform: translateX(-950%);
+  }
+}
+    
+
+ }
+
+ @media (min-width: 767.98px) {
+  /* .herosearchsection  {
+    width: 75% !important;
+    } */
+    .filtercontainer{
+      border-right: 2px solid lightgrey;
+    }
+
+    .contactusleft{
+      border-right: 2px solid lightgrey;
+    }
+    .overviewcard div {
+      border-right: 1px solid lightgrey;
+    }
+    .overviewsection .communitysection{
+      width: 80%;
+    }
+    .aboutusimg{
+      width: 500px;
+      height: 300px;
+    }
+
+    .aboutusimg img{
+      object-fit: contain;
+    }
+    .logocontainer{
+      width: 150px !important;
+        height: 150px !important
+     }
+
+ }
+
+ @media (min-width: 1200px) {
+  .overviewsection .communitysection{
+    width: 70%;
+  }
+ }
